@@ -1,7 +1,7 @@
 <div align="center">
 
-# @hook-it/core
+# `@hook-it/core`
 
-`The core hooks.`
+`Common hooks that can be used in both ReactJS and React Native.`
 
 </div>
