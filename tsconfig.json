@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "lib",
     "lib": ["es2018", "dom"],
     "target": "es5",
     "module": "commonjs",
@@ -24,7 +22,5 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "importHelpers": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "lib", "**/__tests__/*"]
+  }
 }
