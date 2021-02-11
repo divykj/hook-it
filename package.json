@@ -8,8 +8,8 @@
   "scripts": {
     "build": "lerna exec --parallel -- tsc -p tsconfig.json",
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "lint": "tslint -p tsconfig.json",
-    "format": "prettier --write \"packages/*/src/**/*.{ts,js}\"",
+    "lint": "tslint -p tsconfig.json \"packages/*/src/**/*.ts\"",
+    "format": "prettier --write \"packages/*/src/**/*.ts\"",
     "test": "yarn lint",
     "prepare": "yarn build",
     "prepublishOnly": "yarn lint && yarn test",
